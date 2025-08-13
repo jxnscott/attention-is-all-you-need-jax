@@ -7,13 +7,13 @@
   - Section 3.2 — Scaled Dot-Product Attention
   - Section 3.3 — Feedforward Networks
   - Section 3.5 — Positional Encoding
+  - Section 5.3 — Optimizer
 
 **Goal:** Identify all building blocks before diving deep.
 
 ---
 
 ## 2. Component Checklist (30–45 min)
-- Create `docs/components.md` in your repo.
 - List the **major blocks** you identify:
   - Encoder
   - Decoder
@@ -26,7 +26,6 @@
   - **Role** (e.g., “maps input token sequence to contextual embeddings”)
   - **Inputs/Outputs** (types, shapes)
   - **Paper section reference** (for quick lookup later)
-
 ---
 
 ## 3. Architecture Diagram (45 min)
