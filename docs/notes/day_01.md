@@ -73,4 +73,4 @@
 ---
 
 **Shapes legend:**  
-`N` = source length, `M` = target length, `d_model` = model width.
+`N` = source length, `M` = target length
