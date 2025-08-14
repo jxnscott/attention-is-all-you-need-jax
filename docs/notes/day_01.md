@@ -61,16 +61,3 @@
 1. Why did they remove recurrence/convolutions?  
 2. What training-time benefits do they claim from self-attention?  
 3. How do they handle sequence order without recurrence?  
-
----
-
-## Checklist
-- [ ] `docs/architecture.md` — diagram + table of components
-- [ ] `docs/architecture.png` — labeled, with shapes and data flow
-- [ ] Notebook answers to reflection questions
-- [ ] Commit + push everything to GitHub
-
----
-
-**Shapes legend:**  
-`N` = source length, `M` = target length
