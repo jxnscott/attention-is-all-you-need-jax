@@ -5,7 +5,7 @@
 ---
 
 ## Roadmap / Schedule (living checklist)
-- [x] Day 1 — First pass & architecture mapping ([notes/day_01.md](./day_01.md))
+- [ ] Day 1 — First pass & architecture mapping ([notes/day_01.md](./day_01.md))
 - [ ] Day 2 — Attention math + typed shapes (Q/K/V, masking)
 - [ ] Day 3 — Multi-head attention impl sketch
 - [ ] Day 4 — FFN + residuals + LayerNorm decisions (pre- vs post-norm)
