@@ -26,10 +26,10 @@
 - **Self-attention**: Can directly connect *any* word to *any other* → much easier to track long-range relationships.
 
 #### 3 — Instant takeaways for a 2017 NLP researcher
-1. Not just faster — **more accurate** than the best RNN+attention systems.
-2. Beating **ensembles** with a single model means higher inherent expressiveness.
+1. Not just faster — more accurate than the best RNN+attention systems.
+2. Beating ensembles with a single model means higher inherent expressiveness.
 3. Parallelizable + faster training → easier scaling.
-4. +2 BLEU on En→De = better handling of **long-range dependencies and reordering**.
+4. +2 BLEU on En→De = better handling of long-range dependencies.
 
 ## Read-Through + Diagramming (2–3 hrs total)
 
