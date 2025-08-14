@@ -5,11 +5,10 @@ Raw, unordered thoughts and notes go here first.
 Later, I’ll distill them into daily logs (`day_XX.md`).
 
 ---
-
-## Index
-- [2025-07-15](#2025-07-15)
-- [2025-08-12](#2025-08-12)
-- [2025-08-13](#2025-08-13)
+- [Scratchpad](#scratchpad)
+  - [2025-07-15](#2025-07-15)
+  - [2025-08-12](#2025-08-12)
+  - [2025-08-13](#2025-08-13)
 
 ---
 
