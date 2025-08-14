@@ -23,6 +23,9 @@ As I go through the model sections, I’ll:
 
 Goal is to finish the pass with a diagram that I can use as a reference while coding.
 
+#### Transformer: Highest Level
+![transformer_highest_level](../images/transformer_highest_level.png)
+
 ---
 
 ## 2. Reflection Questions
@@ -38,3 +41,5 @@ Once I finish the pass, I’ll write quick answers to:
 - [ ] `docs/architecture.png` — labeled, with shapes and data flow
 - [ ] Notebook answers to reflection questions
 - [ ] Commit + push everything to GitHub
+
+
