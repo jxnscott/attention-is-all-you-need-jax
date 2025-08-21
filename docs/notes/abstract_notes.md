@@ -1,6 +1,3 @@
-# AIAYN — Day 1: First Pass & Architecture Mapping  
-*Part of my “Attention Is All You Need” from-scratch replication project using JAX/Flax.*
-
 ## Abstract Notes:
 
 ### Key BLEU Results
@@ -30,11 +27,3 @@
 2. Beating ensembles with a single model means higher inherent expressiveness.
 3. Parallelizable + faster training → easier scaling.
 4. +2 BLEU on En→De = better handling of long-range dependencies.
-
-## Read-Through + Diagramming
-
-
-### Transformer — Highest Level
-![transformer_highest_level](../images/transformer_highest_level.png)
-
----

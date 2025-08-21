@@ -50,3 +50,4 @@ Later, I’ll distill them into daily logs (`day_XX.md`).
 - decided to use hugging face datasets for the wmt 2014 data. however, outside of a nice initial contianer of the raw data i want to do everything else manually. e.g., tokenization.
 - checked out some of the English-to-German data.
 - I got a refresher on the intuition of attention, its fascinating. The key's and queries produce a weight, normalized by softmax, that is used to essentially add a filter (via multiplication) over the values such that the embeddings can be enhanced based on what is important - and what is important is learned by the model over time. Very flexible and cool.
+- I created a `src/` structure for my code.
