@@ -1,1 +1,3 @@
+black
+datasets
 jax[rocm]

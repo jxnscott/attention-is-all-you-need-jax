@@ -9,6 +9,7 @@ Later, I’ll distill them into daily logs (`day_XX.md`).
   - [2025-07-15](#2025-07-15)
   - [2025-08-12](#2025-08-12)
   - [2025-08-13](#2025-08-13)
+  - [2025-08-20](#2025-08-20)
 
 ---
 
@@ -25,7 +26,7 @@ Later, I’ll distill them into daily logs (`day_XX.md`).
       Input/output lengths can differ.
     - **Transductive Learning:** Inference on specific known unlabeled instances during training (e.g., filling in missing labels in a known graph), as opposed to inductive learning which generalizes to unseen examples.
 
----
+
 
 ## 2025-08-12
 - Took about a one-month break (vacation + computer crash/reset).  
@@ -33,7 +34,7 @@ Later, I’ll distill them into daily logs (`day_XX.md`).
   I noted everything down that I did not understand.
 - Back at it today.
 
----
+
 
 ## 2025-08-13
 - Got through abstract, intro, and conclusion in a refresher.
@@ -42,3 +43,11 @@ Later, I’ll distill them into daily logs (`day_XX.md`).
 - Uploaded the diagram.
 - Observed how transduction played out with the dimensions changing from **N** in the input to **M** in the output (sequence length).
 - Saw how the latent representations **Z** were used by the Decoder autoregressively.
+
+
+## 2025-08-20
+- sketched out the encoder.
+- decided to use hugging face datasets for the wmt 2014 data. however, outside of a nice initial contianer of the raw data i want to do everything else manually. e.g., tokenization.
+- checked out some of the English-to-German data.
+- I got a refresher on the intuition of attention, its fascinating. The key's and queries produce a weight, normalized by softmax, that is used to essentially add a filter (via multiplication) over the values such that the embeddings can be enhanced based on what is important - and what is important is learned by the model over time. Very flexible and cool.
+- I created a `src/` structure for my code.
