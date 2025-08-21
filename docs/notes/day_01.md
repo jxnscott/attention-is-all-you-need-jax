@@ -31,33 +31,10 @@
 3. Parallelizable + faster training → easier scaling.
 4. +2 BLEU on En→De = better handling of long-range dependencies.
 
-## Read-Through + Diagramming (2–3 hrs total)
+## Read-Through + Diagramming
 
-**Plan:**
-- Read Abstract, Introduction, and Conclusion for problem statement and main contributions.
-- Skim all section headings and figures/tables to understand paper structure.
-- Glance at equations to identify where the math is concentrated:
-  - §3.2 — Scaled Dot-Product Attention
-  - §3.3 — Feedforward Networks
-  - §3.5 — Positional Encoding
-  - §5.3 — Optimizer
-- As I go through model sections:
-  - Keep `docs/architecture.md` open.
-  - Update `docs/architecture.png` with each component as I encounter it.
-  - For each block, note:
-    - Role (plain English)
-    - Inputs (types/shapes)
-    - Outputs (types/shapes)
-    - Paper section reference
-  - Add shape annotations (`d_model`, head count, sequence length) and mark residuals/layer norms.
 
-**Current Progress:**  
-#### Transformer — Highest Level
+### Transformer — Highest Level
 ![transformer_highest_level](../images/transformer_highest_level.png)
 
 ---
-
-## Reflection Questions (To Fill In)
-1. Why did they remove recurrence/convolutions?  
-2. What training-time benefits do they claim from self-attention?  
-3. How do they handle sequence order without recurrence?  
